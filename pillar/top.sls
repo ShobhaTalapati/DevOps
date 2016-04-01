@@ -1,10 +1,8 @@
 base:
-    '*':
-        - shared
+
     'roles:glassfish4':
         - match: grain
-        - glassfish4
-    'roles:portal':
+        - glassfish
+    'roles:portal_api':
         - match: grain
-        - portal-web
-	- portal-war
+        - portal

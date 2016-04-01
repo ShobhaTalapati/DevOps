@@ -1,5 +1,5 @@
 include:
-   - html-mail-uninstall
+   -portal-uninstall
 
 stop_glassfish:
    service.dead:
